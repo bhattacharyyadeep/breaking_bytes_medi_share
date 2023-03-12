@@ -4,14 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".MainActivity"
-  android:background="@drawable/back">
+  android:background="@drawable/back"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="75dp"
         android:orientation="horizontal"
         android:id="@+id/layout_1">
+        
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -20,7 +21,6 @@
             android:id="@+id/welcome"
             android:textColor="@color/white"
             android:layout_margin="20dp"
-
             android:textStyle="bold"
             android:gravity="center_horizontal"
             android:textSize="25dp"/>
@@ -31,7 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="600dp"
         android:layout_below="@+id/layout_1"
-        android:layout_margin="10dp"
+        android:layout_margin="5dp"
         android:orientation="vertical">
 
         <ImageButton

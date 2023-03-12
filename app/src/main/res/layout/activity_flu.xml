@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cancer">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medi Share Expert Answers the Most Important Questions on Flu:"
+            android:layout_margin="4dp"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="1. What are the symptoms of the flu?"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="5dp"
+            android:text="As a healthcare professional, I can tell you that the common symptoms of flu include:
+Fever,
+Chills,
+Body aches,
+Headache,
+Cough,
+Sore throat,
+Fatigue,
+Weakness,
+Nasal congestion,
+Runny nose,
+Additionally, some patients may experience gastrointestinal symptoms such as:
+Nausea,
+Vomiting,
+Diarrhea.
+It's important to note that the severity and presentation of symptoms may vary from person to person.
+
+
+It's important to seek medical attention if you experience any of these symptoms, as some of them can also be present in other illnesses.
+"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="2.How can I prevent the flu?"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="5dp"
+            android:text="a) Avoid close contact with people who are sick. When you are sick, keep your distance from others to protect them from getting sick too."
+/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="5dp"
+            android:text="b) If possible, stay home from work, school, and errands when you are sick. This will help prevent spreading your illness to others."
+    />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="5dp"
+            android:text="c) Cover your mouth and nose with a tissue when coughing or sneezing. It may prevent those around you from getting sick. Flu viruses spread mainly by droplets made when people with flu cough, sneeze or talk."
+           />
+    </LinearLayout>
+</ScrollView>

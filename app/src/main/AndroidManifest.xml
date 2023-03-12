@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HealthCare">
-        <activity android:name=".Checkup"></activity>
+        <activity android:name=".Flu" />
+        <activity android:name=".Cancer" />
+        <activity android:name=".open_forum" />
+        <activity android:name=".expert_forum" />
+        <activity android:name=".Checkup" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

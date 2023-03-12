@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cancer">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What does it feel like to have the flu?"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I have had the flu four times. Influenza usually hits suddenly. One time I walked into a supermarket feeling fine, and by the time I walked out, the fatigue and fever I felt was so severe that I could barely hold myself upright.
+
+Influenza usually also causes a headache, along with severe muscle aches and generalized body aches with chills. Often there is a sore throat with malaise (malaise is the agony one feels when ill). Nausea and vomiting may or may not appear. Coughing is often severe. Runny nose is seen in many cases, yet not all. Fever is high. Often it will hit 101 to 102 degrees Fahrenheit or more. Sometimes, people complain of sensitivity to light and/or slightly blurred vision. The symptom that usually lingers the longest is fatigue. Severe fatigue. Just getting up to use the bathroom feels like death. Appetite is poor, so it is important to work on keeping fluids down to avoid dehydration. Respiratory distress, pneumonia and respiratory failure are complications that can lead to death. Because of this, I am always amazed when I hear so many people fail to get their yearly flu vaccination."
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Experience shared by Michal smith"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Add your experience"/>
+
+
+</LinearLayout>
+</ScrollView>

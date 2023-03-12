@@ -2,6 +2,7 @@ package com.deeepssj.healthcare;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -21,14 +22,17 @@ ImageButton b1,b2,b3;
     }
     public void image1(View view)
     {
-        Toast.makeText(getApplicationContext(),"Clicked on Health Checkup Button",Toast.LENGTH_LONG).show();
+        Intent intent=new Intent(getApplicationContext(),Checkup.class);
+        startActivity(intent);
     }
     public void image2(View view)
     {
-        Toast.makeText(getApplicationContext(),"Clicked on Expert Analysis Button",Toast.LENGTH_LONG).show();
+        Intent intent=new Intent(getApplicationContext(),expert_forum.class);
+        startActivity(intent);
     }
     public void image3(View view)
     {
-        Toast.makeText(getApplicationContext(),"Clicked on Open Forum Button",Toast.LENGTH_LONG).show();
+        Intent intent=new Intent(getApplicationContext(),open_forum.class);
+        startActivity(intent);
     }
 }
