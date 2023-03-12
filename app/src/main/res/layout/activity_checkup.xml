@@ -11,7 +11,8 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="16dp"
-        android:layout_gravity="center">
+        android:layout_gravity="center"
+        android:gravity="center">
 
         <EditText
             android:layout_width="match_parent"
@@ -24,6 +25,17 @@
             android:layout_height="wrap_content"
             android:hint="heart beat rate"
             android:id="@+id/e2"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Height in m"
+            android:id="@+id/e3"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter weight in Kg"
+            android:id="@+id/e4"/>
 
         <Button
             android:layout_width="200dp"
